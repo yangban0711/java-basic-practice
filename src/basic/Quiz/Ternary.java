@@ -1,4 +1,4 @@
-package basic.operater;
+package basic.Quiz;
 
 public class Ternary {
 

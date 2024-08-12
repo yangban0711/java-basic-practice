@@ -28,6 +28,9 @@ public class OutputPractice {
         System.out.println("나이를 입력하시오: ");
         int age =jav_input.nextInt();
         System.out.println(age + "살");
+
+        //스캐너 닫기
+        jav_input.close();
     }
 }
 
