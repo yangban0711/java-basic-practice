@@ -11,4 +11,17 @@ public class String_Test {
      *          기본 데이터 타입처럼 사용합니다. (사실은 객체 타입)
      *
      */
+    public static void main(String[] args) {
+        String str = "hello";
+        String s1 = "my dream";
+        String s2 = "is a programmer";
+
+        System.out.println(str + s1 + s2);
+
+        int month = 7;
+        int date = 11;
+
+        System.out.println("내 생일은" + month + date);
+    }
+
 }
