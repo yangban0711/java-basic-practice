@@ -1,4 +1,4 @@
-package OOP.TryCatch;
+package OOP.ExceptionHandle.TryCatch.Ex1;
 
 import java.util.Scanner;
 
