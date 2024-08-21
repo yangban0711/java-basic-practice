@@ -8,6 +8,7 @@ package etc.api.StringAPI;
 */
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ArrList {
@@ -16,6 +17,10 @@ public class ArrList {
 
         // <> -> 제네릭: 타입의 형식을 지정하여 타입 안정성을 꾀하기 위한 문법
         List<String> nick = new ArrayList<>();
+        List<Integer> integerList = Arrays.asList(1, 2, 3, 4);     //asList로 만든 리스트는 불변의 성질을 가짐 (수정이 불가능함)
+                                                                    //단, set으로 특정 인덱스값의 수정은 가능함
+
+        System.out.println(integerList);
 
         String str = ("dog-awww");
 
@@ -52,7 +57,7 @@ public class ArrList {
         int Num = nick.indexOf("goat-beeeee");
         System.out.println(nick.contains("goat-beeeee"));
         System.out.println(Num);
-     }
+    }
 
 
 }
